@@ -1,0 +1,4 @@
+2022-04-28T09:24:50,382 - HandlerTime.Milliseconds:926.49|#ModelName:my_tc,Level:Model|#hostname:1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea,requestID:601ebfb4-268e-4ac1-a438-2f327b1f9d58,timestamp:1651137890
+2022-04-28T09:24:50,384 - PredictionTime.Milliseconds:926.56|#ModelName:my_tc,Level:Model|#hostname:1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea,requestID:601ebfb4-268e-4ac1-a438-2f327b1f9d58,timestamp:1651137890
+2022-04-28T09:25:25,008 - HandlerTime.Milliseconds:905.26|#ModelName:my_tc,Level:Model|#hostname:1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea,requestID:21bba63c-1f51-4b14-a559-75063fbc6994,timestamp:1651137925
+2022-04-28T09:25:25,011 - PredictionTime.Milliseconds:905.34|#ModelName:my_tc,Level:Model|#hostname:1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea,requestID:21bba63c-1f51-4b14-a559-75063fbc6994,timestamp:1651137925

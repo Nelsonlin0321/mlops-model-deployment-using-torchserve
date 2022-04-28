@@ -1,0 +1,7 @@
+{
+ "model_name":"albert-base-v2",
+ "mode":"sequence_classification",
+ "do_lower_case":true,
+ "num_labels":"2",
+ "max_length":"150"
+}

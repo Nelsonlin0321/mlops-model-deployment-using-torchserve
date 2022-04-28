@@ -1,0 +1,120 @@
+2022-04-28T09:23:21,580 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-28T09:23:21,582 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - [PID]6813
+2022-04-28T09:23:21,582 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-28T09:23:21,583 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Python runtime: 3.6.13
+2022-04-28T09:23:21,609 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-28T09:23:21,695 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-28T09:23:21,703 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [PID]6812
+2022-04-28T09:23:21,705 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-28T09:23:21,705 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Python runtime: 3.6.13
+2022-04-28T09:23:21,741 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-28T09:23:21,765 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - model_name: my_tc, batchSize: 1
+2022-04-28T09:23:21,821 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - model_name: my_tc, batchSize: 1
+2022-04-28T09:23:22,534 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Transformers version 4.18.0
+2022-04-28T09:23:22,583 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Transformers version 4.18.0
+2022-04-28T09:23:24,883 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForSequenceClassification: ['predictions.decoder.weight', 'predictions.decoder.bias', 'predictions.LayerNorm.bias', 'predictions.bias', 'predictions.LayerNorm.weight', 'predictions.dense.bias', 'predictions.dense.weight']
+2022-04-28T09:23:24,885 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - - This IS expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+2022-04-28T09:23:24,886 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - - This IS NOT expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2022-04-28T09:23:24,887 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.bias', 'classifier.weight']
+2022-04-28T09:23:24,890 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2022-04-28T09:23:24,934 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForSequenceClassification: ['predictions.bias', 'predictions.LayerNorm.weight', 'predictions.dense.weight', 'predictions.LayerNorm.bias', 'predictions.dense.bias', 'predictions.decoder.bias', 'predictions.decoder.weight']
+2022-04-28T09:23:24,935 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - - This IS expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+2022-04-28T09:23:24,936 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - - This IS NOT expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2022-04-28T09:23:24,939 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.weight', 'classifier.bias']
+2022-04-28T09:23:24,940 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2022-04-28T09:23:24,954 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - <All keys matched successfully>
+2022-04-28T09:23:24,995 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - <All keys matched successfully>
+2022-04-28T09:23:53,658 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-28T09:23:53,660 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [PID]6943
+2022-04-28T09:23:53,665 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-28T09:23:53,665 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Python runtime: 3.6.13
+2022-04-28T09:23:53,702 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-28T09:23:53,819 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - model_name: my_tc, batchSize: 1
+2022-04-28T09:23:54,097 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-28T09:23:54,104 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - [PID]6944
+2022-04-28T09:23:54,105 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-28T09:23:54,110 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Python runtime: 3.6.13
+2022-04-28T09:23:54,132 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-28T09:23:54,193 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - model_name: my_tc, batchSize: 1
+2022-04-28T09:23:54,597 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Transformers version 4.18.0
+2022-04-28T09:23:54,905 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Transformers version 4.18.0
+2022-04-28T09:23:56,854 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForSequenceClassification: ['predictions.decoder.weight', 'predictions.LayerNorm.bias', 'predictions.bias', 'predictions.decoder.bias', 'predictions.dense.weight', 'predictions.LayerNorm.weight', 'predictions.dense.bias']
+2022-04-28T09:23:56,858 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - - This IS expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+2022-04-28T09:23:56,859 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - - This IS NOT expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2022-04-28T09:23:56,859 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.weight', 'classifier.bias']
+2022-04-28T09:23:56,859 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2022-04-28T09:23:56,893 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - <All keys matched successfully>
+2022-04-28T09:23:57,149 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForSequenceClassification: ['predictions.decoder.bias', 'predictions.dense.weight', 'predictions.LayerNorm.weight', 'predictions.decoder.weight', 'predictions.LayerNorm.bias', 'predictions.bias', 'predictions.dense.bias']
+2022-04-28T09:23:57,153 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - - This IS expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+2022-04-28T09:23:57,155 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - - This IS NOT expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2022-04-28T09:23:57,156 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.weight', 'classifier.bias']
+2022-04-28T09:23:57,156 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2022-04-28T09:23:57,211 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - <All keys matched successfully>
+2022-04-28T09:24:49,452 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Backend received inference at: 1651137889
+2022-04-28T09:24:49,458 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Received text: '{"text":"Bloomberg has decided to publish a new report on the global economy.", "target":1} '
+2022-04-28T09:24:49,453 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+2022-04-28T09:24:49,459 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - /opt/conda/lib/python3.6/site-packages/transformers/tokenization_utils_base.py:2269: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+2022-04-28T09:24:49,459 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   FutureWarning,
+2022-04-28T09:24:49,703 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [2022-04-28 09:24:49.702 1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea:6943 INFO utils.py:27] RULE_JOB_STOP_SIGNAL_FILENAME: None
+2022-04-28T09:24:50,015 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [2022-04-28 09:24:50.015 1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea:6943 INFO profiler_config_parser.py:102] Unable to find config at /opt/ml/input/config/profilerconfig.json. Profiler is disabled.
+2022-04-28T09:24:50,378 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - This the output size from the Seq classification model torch.Size([1, 2])
+2022-04-28T09:24:50,379 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - This the output from the Seq classification model SequenceClassifierOutput(loss=None, logits=tensor([[-0.3778,  0.0593]]), hidden_states=None, attentions=None)
+2022-04-28T09:25:11,575 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-28T09:25:11,582 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [PID]7098
+2022-04-28T09:25:11,582 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-28T09:25:11,583 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Python runtime: 3.6.13
+2022-04-28T09:25:11,607 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-28T09:25:11,676 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-28T09:25:11,709 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - [PID]7099
+2022-04-28T09:25:11,710 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-28T09:25:11,711 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Python runtime: 3.6.13
+2022-04-28T09:25:11,717 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - model_name: my_tc, batchSize: 1
+2022-04-28T09:25:11,726 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-28T09:25:11,797 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - model_name: my_tc, batchSize: 1
+2022-04-28T09:25:12,541 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Transformers version 4.18.0
+2022-04-28T09:25:12,561 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - Transformers version 4.18.0
+2022-04-28T09:25:14,890 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForSequenceClassification: ['predictions.LayerNorm.weight', 'predictions.dense.weight', 'predictions.bias', 'predictions.decoder.weight', 'predictions.dense.bias', 'predictions.decoder.bias', 'predictions.LayerNorm.bias']
+2022-04-28T09:25:14,896 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - - This IS expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+2022-04-28T09:25:14,898 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - - This IS NOT expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2022-04-28T09:25:14,899 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.bias', 'classifier.weight']
+2022-04-28T09:25:14,900 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2022-04-28T09:25:14,917 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForSequenceClassification: ['predictions.decoder.bias', 'predictions.decoder.weight', 'predictions.dense.bias', 'predictions.bias', 'predictions.LayerNorm.bias', 'predictions.dense.weight', 'predictions.LayerNorm.weight']
+2022-04-28T09:25:14,921 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - - This IS expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+2022-04-28T09:25:14,924 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - - This IS NOT expected if you are initializing AlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2022-04-28T09:25:14,926 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.bias', 'classifier.weight']
+2022-04-28T09:25:14,928 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2022-04-28T09:25:14,962 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - <All keys matched successfully>
+2022-04-28T09:25:14,997 [INFO ] W-9001-my_tc_1.0-stdout MODEL_LOG - <All keys matched successfully>
+2022-04-28T09:25:24,099 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Backend received inference at: 1651137924
+2022-04-28T09:25:24,100 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+2022-04-28T09:25:24,104 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - Received text: '{"text":"Bloomberg has decided to publish a new report on the global economy.", "target":1} '
+2022-04-28T09:25:24,106 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - /opt/conda/lib/python3.6/site-packages/transformers/tokenization_utils_base.py:2269: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+2022-04-28T09:25:24,107 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   FutureWarning,
+2022-04-28T09:25:24,366 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [2022-04-28 09:25:24.366 1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea:7098 INFO utils.py:27] RULE_JOB_STOP_SIGNAL_FILENAME: None
+2022-04-28T09:25:24,604 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - [2022-04-28 09:25:24.604 1-8-1-cpu-py36-ml-t3-medium-1290f598ee5787c8b7e772204dea:7098 INFO profiler_config_parser.py:102] Unable to find config at /opt/ml/input/config/profilerconfig.json. Profiler is disabled.
+2022-04-28T09:25:25,004 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - This the output size from the Seq classification model torch.Size([1, 2])
+2022-04-28T09:25:25,005 [INFO ] W-9000-my_tc_1.0-stdout MODEL_LOG - This the output from the Seq classification model SequenceClassifierOutput(loss=None, logits=tensor([[-1.1051,  0.6561]]), hidden_states=None, attentions=None)
+2022-04-28T09:33:07,812 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-04-28T09:33:07,813 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-04-28T09:33:07,819 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-04-28T09:33:07,820 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-04-28T09:33:07,820 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -     worker.run_server()
+2022-04-28T09:33:07,820 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -     worker.run_server()
+2022-04-28T09:33:07,820 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-04-28T09:33:07,820 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-04-28T09:33:07,820 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -     self.handle_connection(cl_socket)
+2022-04-28T09:33:07,820 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -     self.handle_connection(cl_socket)
+2022-04-28T09:33:07,820 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/model_service_worker.py", line 116, in handle_connection
+2022-04-28T09:33:07,822 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2022-04-28T09:33:07,822 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/model_service_worker.py", line 116, in handle_connection
+2022-04-28T09:33:07,823 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2022-04-28T09:33:07,823 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 32, in retrieve_msg
+2022-04-28T09:33:07,823 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 32, in retrieve_msg
+2022-04-28T09:33:07,823 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2022-04-28T09:33:07,824 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 164, in _retrieve_buffer
+2022-04-28T09:33:07,825 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG -     pkt = conn.recv(length)
+2022-04-28T09:33:07,826 [WARN ] W-9001-my_tc_1.0-stderr MODEL_LOG - KeyboardInterrupt
+2022-04-28T09:33:07,827 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2022-04-28T09:33:07,827 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -   File "/opt/conda/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 164, in _retrieve_buffer
+2022-04-28T09:33:07,828 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG -     pkt = conn.recv(length)
+2022-04-28T09:33:07,828 [WARN ] W-9000-my_tc_1.0-stderr MODEL_LOG - KeyboardInterrupt
